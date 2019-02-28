@@ -79,8 +79,8 @@ stemcells:
   version: latest
 
 tags:
-  concourse-up-project: ((project))
-  concourse-up-component: concourse
+  control-tower-project: ((project))
+  control-tower-component: concourse
 
 instance_groups:
 - name: web

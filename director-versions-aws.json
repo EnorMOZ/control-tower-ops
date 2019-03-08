@@ -1,7 +1,7 @@
 {
   "bosh": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-268.6.0-ubuntu-xenial-250.9-20190215-221645-60895385-20190215221651.tgz",
-    "sha1": "480b15380f446bcd6fb86511e1ad39b4f1019e37",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-268.6.0-ubuntu-xenial-250.17-20190306-225307-394348002-20190306225316.tgz",
+    "sha1": "3e37786c9dcb0a73a34ee55c89b3a43d84e72c25",
     "version": "268.6.0"
   },
   "bosh-cli": {
@@ -10,8 +10,8 @@
     "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
   },
   "bpm": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-0.12.3-ubuntu-xenial-250.9-20190215-221628-356459291-20190215221635.tgz",
-    "sha1": "54fbf8e2ecf14c69ee761ddde0624edd228ac478",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-0.12.3-ubuntu-xenial-250.17-20190306-224046-281277028-20190306224052.tgz",
+    "sha1": "782f31d0472e5e549f598ecddbb40e042c36ce1b",
     "version": "0.12.3"
   },
   "cpi": {
@@ -20,13 +20,13 @@
     "version": "73"
   },
   "fly": {
-    "windows": "https://github.com/concourse/concourse/releases/download/v4.2.3/fly_windows_amd64",
-    "mac": "https://github.com/concourse/concourse/releases/download/v4.2.3/fly_darwin_amd64",
-    "linux": "https://github.com/concourse/concourse/releases/download/v4.2.3/fly_linux_amd64"
+    "windows": "",
+    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.0.0-darwin-amd64",
+    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.0.0-linux-amd64"
   },
   "stemcell": {
-    "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/light-bosh-stemcell-250.9-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
-    "sha1": "105c85655bbabdaef59bffe7d6956c026fc0a4aa",
+    "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/250.17/light-bosh-stemcell-250.17-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
+    "sha1": "6859f8a9f7b1cade0969dc3870ebd257968a1394",
     "version": ""
   },
   "terraform": {

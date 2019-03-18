@@ -1,7 +1,7 @@
 {
   "bosh": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-268.7.0-ubuntu-xenial-250.17-20190308-181631-852848928-20190308181638.tgz",
-    "sha1": "10b656e7dba7b1f94fc874fc8c4a73321ac25cd1",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-268.7.0-ubuntu-xenial-250.21-20190318-142659-310928175-20190318142706.tgz",
+    "sha1": "704367ae00d6c3c58a17f1fca85ffad77f0eee8c",
     "version": "268.7.0"
   },
   "bosh-cli": {

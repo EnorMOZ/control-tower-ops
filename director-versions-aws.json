@@ -1,0 +1,37 @@
+{
+  "bosh": {
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-269.0.0-ubuntu-xenial-315.11-20190424-170936-188486732-20190424170942.tgz",
+    "sha1": "d78759b90dc81e2a2172d9c71c7c4cf359c5f017",
+    "version": "269.0.0"
+  },
+  "bosh-cli": {
+    "windows": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-windows-amd64.exe",
+    "mac": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-darwin-amd64",
+    "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
+  },
+  "bpm": {
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.0.4-ubuntu-xenial-315.11-20190424-170749-106826293-20190424170756.tgz",
+    "sha1": "274ca16cbf39d1700349c94b9f70732df8782ee8",
+    "version": "1.0.4"
+  },
+  "cpi": {
+    "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-aws-cpi-release?v=73",
+    "sha1": "9d02123488919a325f1ed4f349090c4de6142373",
+    "version": "73"
+  },
+  "fly": {
+    "windows": "",
+    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.1.0-darwin-amd64",
+    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.1.0-linux-amd64"
+  },
+  "stemcell": {
+    "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/315.11/light-bosh-stemcell-315.11-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
+    "sha1": "09dd5a97d7c926926789def015031914c29618c8",
+    "version": ""
+  },
+  "terraform": {
+    "windows": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_windows_amd64.zip",
+    "mac": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_darwin_amd64.zip",
+    "linux": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip"
+  }
+}

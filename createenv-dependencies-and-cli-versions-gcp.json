@@ -25,8 +25,8 @@
     "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.2.0-linux-amd64"
   },
   "stemcell": {
-    "url": "https://s3.amazonaws.com/bosh-gce-light-stemcells/315.26/light-bosh-stemcell-315.26-google-kvm-ubuntu-xenial-go_agent.tgz",
-    "sha1": "077cd53b43d21f5b0005b673087b6c8941a6bea7",
+    "url": "https://s3.amazonaws.com/bosh-gce-light-stemcells/315.34/light-bosh-stemcell-315.34-google-kvm-ubuntu-xenial-go_agent.tgz",
+    "sha1": "0f9c6d3f41750cad7cca8addd5ac1ab18d18d0eb",
     "version": ""
   },
   "terraform": {

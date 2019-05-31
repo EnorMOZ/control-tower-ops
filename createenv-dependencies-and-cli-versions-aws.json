@@ -10,9 +10,9 @@
     "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
   },
   "bpm": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.0.4-ubuntu-xenial-315.26-20190517-195714-698683942-20190517195721.tgz",
-    "sha1": "3ed31e60462164509df7fcd4d5791fa14e03cda2",
-    "version": "1.0.4"
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.0-ubuntu-xenial-315.34-20190531-003303-006902624-20190531003309.tgz",
+    "sha1": "24ded7bf449ecfb598e257ed32f5197c39fd0d07",
+    "version": "1.1.0"
   },
   "cpi": {
     "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-aws-cpi-release?v=73",

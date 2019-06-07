@@ -15,9 +15,9 @@
     "version": "1.1.0"
   },
   "cpi": {
-    "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-google-cpi-release?v=29.0.0",
-    "sha1": "ab8e434c6cc86eb130d30f361d210126d5a539bd",
-    "version": "29.0.0"
+    "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-google-cpi-release?v=29.0.1",
+    "sha1": "aba0451b5be65d8bbf3cf7f289c5432192892284",
+    "version": "29.0.1"
   },
   "fly": {
     "windows": "",

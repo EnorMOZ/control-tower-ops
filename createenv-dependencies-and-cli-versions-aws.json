@@ -1,7 +1,7 @@
 {
   "bosh": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-270.2.0-ubuntu-xenial-315.41-20190618-185150-722125853-20190618185158.tgz",
-    "sha1": "731d472c511f9728fef44ea477beaebc86b78d4b",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-270.2.0-ubuntu-xenial-315.45-20190624-173039-891501855-20190624173046.tgz",
+    "sha1": "567dd21e5fbfbb9a90f850056b2573d3261819d9",
     "version": "270.2.0"
   },
   "bosh-cli": {
@@ -10,8 +10,8 @@
     "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
   },
   "bpm": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.0-ubuntu-xenial-315.41-20190618-184035-675391551-20190618184043.tgz",
-    "sha1": "d6976df2eef2d61c17f108817e9f37fd3a1b5cc9",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.0-ubuntu-xenial-315.45-20190624-173318-987474211-20190624173333.tgz",
+    "sha1": "787f0aa8ee53b847d59af62f378dab8a3fd8564e",
     "version": "1.1.0"
   },
   "cpi": {
@@ -25,8 +25,8 @@
     "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.3.0-linux-amd64"
   },
   "stemcell": {
-    "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/315.41/light-bosh-stemcell-315.41-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
-    "sha1": "9ce1d7634f6010302de88110eb95e94ba3226abb",
+    "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/315.45/light-bosh-stemcell-315.45-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
+    "sha1": "0502ba37e931193269eb75c60c408be3f249d0de",
     "version": ""
   },
   "terraform": {

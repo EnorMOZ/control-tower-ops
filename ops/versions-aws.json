@@ -2,7 +2,7 @@
   {
     "type": "replace",
     "path": "/stemcells/alias=xenial/version",
-    "value": "170.93"
+    "value": "170.107"
   },
   {
     "type": "replace",
@@ -10,10 +10,10 @@
     "value": {
       "name": "concourse",
       "version": "5.3.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/concourse-5.3.0-ubuntu-xenial-170.93-20190624-225606-636378022.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/concourse-5.3.0-ubuntu-xenial-170.107-20190703-215024-075907783.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -23,10 +23,10 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.93-20190624-225853-183005214.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.107-20190703-215316-552209715.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -36,10 +36,10 @@
     "value": {
       "name": "riemann",
       "version": "5",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.93-20190624-225919-413902903.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.107-20190703-215342-125302785.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -49,10 +49,10 @@
     "value": {
       "name": "grafana",
       "version": "13.2.2",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/grafana-13.2.2-ubuntu-xenial-170.93-20190624-225937-120993292.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/grafana-13.2.2-ubuntu-xenial-170.107-20190703-215400-908963629.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -62,10 +62,10 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.93-20190624-225953-129120197.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.107-20190703-215416-840211362.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -75,10 +75,10 @@
     "value": {
       "name": "credhub",
       "version": "2.4.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/credhub-2.4.0-ubuntu-xenial-170.93-20190624-230014-12410883.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/credhub-2.4.0-ubuntu-xenial-170.107-20190703-215435-772392431.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -88,10 +88,10 @@
     "value": {
       "name": "uaa",
       "version": "70.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.93-20190624-230556-114340947.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.107-20190703-220016-132093854.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -101,10 +101,10 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.93-20190624-230815-473497451.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.107-20190703-220233-774369518.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   }

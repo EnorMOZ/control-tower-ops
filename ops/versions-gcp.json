@@ -2,7 +2,7 @@
   {
     "type": "replace",
     "path": "/stemcells/alias=xenial/version",
-    "value": "170.93"
+    "value": "170.107"
   },
   {
     "type": "replace",
@@ -10,10 +10,10 @@
     "value": {
       "name": "concourse",
       "version": "5.3.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.3.0-ubuntu-xenial-170.93-20190624-230316-081284411.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.3.0-ubuntu-xenial-170.107-20190710-070532-695219677.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -23,10 +23,10 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.93-20190624-230745-226774334.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.107-20190710-070716-625715677.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -36,10 +36,10 @@
     "value": {
       "name": "riemann",
       "version": "5",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.93-20190624-230828-785221865.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.107-20190710-070800-950585424.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -49,10 +49,10 @@
     "value": {
       "name": "grafana",
       "version": "13.2.2",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.2.2-ubuntu-xenial-170.93-20190624-230854-586575632.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.2.2-ubuntu-xenial-170.107-20190710-070826-33387161.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -62,10 +62,10 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.93-20190624-230921-363336071.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.107-20190710-070852-410855843.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -75,10 +75,10 @@
     "value": {
       "name": "credhub",
       "version": "2.4.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.4.0-ubuntu-xenial-170.93-20190624-230952-841164145.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.4.0-ubuntu-xenial-170.107-20190710-070921-833398129.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -88,10 +88,10 @@
     "value": {
       "name": "uaa",
       "version": "70.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.93-20190624-231737-014003756.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.107-20190710-071018-435016117.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   },
@@ -101,10 +101,10 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.93-20190624-232123-244597475.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.107-20190710-071106-492728934.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.93"
+        "version": "170.107"
       }
     }
   }

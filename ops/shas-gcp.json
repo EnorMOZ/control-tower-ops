@@ -2,41 +2,41 @@
   {
     "type": "replace",
     "path": "/releases/name=concourse/sha1?",
-    "value": "26bcef0d33ffb84aac2ed67028981f755966b9b6"
+    "value": "95d00dc0947d57b6860d15afa431d80a1cba7988"
   },
   {
     "type": "replace",
     "path": "/releases/name=bpm/sha1?",
-    "value": "29eb38bb2585c43bf30c1a07ad711e685fe92be0"
+    "value": "e61e9b8831ef4326b3e5ad462ba0e1ea46894e47"
   },
   {
     "type": "replace",
     "path": "/releases/name=riemann/sha1?",
-    "value": "3a561c8bb5572adb010c8b2b718fefc77580a6a4"
+    "value": "670f822d253da9b473c73c36e9549afe5b7994e8"
   },
   {
     "type": "replace",
     "path": "/releases/name=grafana/sha1?",
-    "value": "0567070877138ee119f51a48a4f32c3a569d4ef4"
+    "value": "171efef59b50da2dc4d8d03b12c53467d39f38e1"
   },
   {
     "type": "replace",
     "path": "/releases/name=influxdb/sha1?",
-    "value": "0ef8b896a445772aee174485b1de010c076cd7d9"
+    "value": "bab7cbc00ada0f8a4d9880f56f6313f3dd108182"
   },
   {
     "type": "replace",
     "path": "/releases/name=credhub/sha1?",
-    "value": "44ead15d18684b25b48c92b38c40b337309be52f"
+    "value": "e4748296c52eb06e5733d46214d0d05cd7fa49f1"
   },
   {
     "type": "replace",
     "path": "/releases/name=uaa/sha1?",
-    "value": "11cb85a7de677a336dc06f04fe7ed6a092c0f8e8"
+    "value": "2000e088349b6e1baf298a5d223ae97c5484ba47"
   },
   {
     "type": "replace",
     "path": "/releases/name=bosh-dns/sha1?",
-    "value": "5ddef0b001685e7e230bc62b26857955db804de0"
+    "value": "45acd6e8ee2138d2dbf1c3ffc7a7f6507566ed0f"
   }
 ]

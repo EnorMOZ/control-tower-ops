@@ -21,8 +21,8 @@
   },
   "fly": {
     "windows": "",
-    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.3.0-darwin-amd64",
-    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.3.0-linux-amd64"
+    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.4.1-darwin-amd64",
+    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.4.1-linux-amd64"
   },
   "stemcell": {
     "url": "https://s3.amazonaws.com/bosh-aws-light-stemcells/456.3/light-bosh-stemcell-456.3-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",

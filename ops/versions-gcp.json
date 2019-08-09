@@ -10,7 +10,7 @@
     "value": {
       "name": "concourse",
       "version": "5.4.1",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.4.1-ubuntu-xenial-170.111-20190807-153425-970809804.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.4.1-ubuntu-xenial-170.111-20190809-131323-120468078.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -23,7 +23,7 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.111-20190807-153546-28842853.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.111-20190809-131424-806066464.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -36,7 +36,7 @@
     "value": {
       "name": "riemann",
       "version": "5",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.111-20190807-153626-057413574.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/riemann-5-ubuntu-xenial-170.111-20190809-131504-408839457.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -48,8 +48,8 @@
     "path": "/releases/name=grafana",
     "value": {
       "name": "grafana",
-      "version": "13.2.2",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.2.2-ubuntu-xenial-170.111-20190807-153650-360867161.tgz",
+      "version": "13.3.0",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-170.111-20190809-131527-843552888.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -62,7 +62,7 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.111-20190807-153715-61695091.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.111-20190809-131553-928609137.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -75,7 +75,7 @@
     "value": {
       "name": "credhub",
       "version": "2.5.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.5.0-ubuntu-xenial-170.111-20190807-153743-241185322.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.5.0-ubuntu-xenial-170.111-20190809-131621-701273156.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -88,7 +88,7 @@
     "value": {
       "name": "uaa",
       "version": "70.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.111-20190807-153837-846782443.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.111-20190809-131734-545597265.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"
@@ -101,7 +101,7 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.111-20190807-153944-180910398.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.111-20190809-131826-343466046.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.111"

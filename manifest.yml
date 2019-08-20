@@ -1,5 +1,34 @@
 name: ((deployment_name))
 
+influx_db:
+  ip: &influxdb_ip 10.0.0.7
+  url: &influxdb_url http://10.0.0.7:8086
+
+telegraf:
+  <<: &influxdb_properties
+    influxdb:
+      database: concourse
+      url: *influxdb_url
+      username: admin
+      password: ((influxdb_password))
+  jobs:
+  # captures host metrics
+  - <<: &telegraf_job
+      name: telegraf
+      release: telegraf
+      properties:
+        <<: *influxdb_properties
+  # captures per-process metrics
+  # https://github.com/influxdata/telegraf/blob/4d3519756c278c90d1207518bcc97a10c28555f3/plugins/inputs/procstat/README.md
+  - <<: &telegraf_agent_job
+      name: telegraf-agent
+      release: telegraf-agent
+      properties:
+        <<: *influxdb_properties
+        inputs:
+          procstat:
+            pattern: 'bin/concourse|bin/baggageclaim|garden-properties|bin/runc|resource/check|gzip|erlc|beam.smp|ct_run|dockerd|telegraf|postgres'
+
 variables:
 - name: credhub-encryption-password
   type: password
@@ -56,8 +85,6 @@ variables:
 releases:
 - name: concourse
   version: latest
-- name: riemann
-  version: latest
 - name: grafana
   version: latest
 - name: influxdb
@@ -69,6 +96,10 @@ releases:
 - name: bosh-dns
   version: latest
 - name: bpm
+  version: latest
+- name: telegraf
+  version: latest
+- name: telegraf-agent
   version: latest
 
 stemcells:
@@ -83,10 +114,12 @@ tags:
 instance_groups:
 - name: web
   azs: [z1]
+  persistent_disk_type: default
   instances: 1
   networks:
   - name: ((web_network_name))
     default: [dns, gateway]
+    static_ips: [*influxdb_ip]
   stemcell: xenial
   vm_type: ((web_vm_type))
   jobs:
@@ -112,9 +145,9 @@ instance_groups:
         url: https://((domain)):8844
       external_url: https://((domain))
       influxdb:
-        database: riemann
+        database: concourse
         password: ((influxdb_password))
-        url: http://localhost:8086
+        url: *influxdb_url
         username: admin
       log_level: debug
       postgresql:
@@ -137,25 +170,13 @@ instance_groups:
     release: influxdb
     properties:
       influxdb:
-        database: riemann
+        database: concourse
         password: ((influxdb_password))
         user: admin
-  - name: riemann
-    release: riemann
-    properties:
-      riemann:
-        influxdb:
-          database: riemann
-          host: 127.0.0.1
-          password: ((influxdb_password))
-          port: 8086
-          username: admin
-  - name: riemann-emitter
-    release: riemann
-    properties:
-      riemann_emitter:
-        host: 127.0.0.1
-        port: 5555
+        data:
+          index_version: tsi1
+  - <<: *telegraf_job
+  - <<: *telegraf_agent_job
   - name: grafana
     release: grafana
     properties:
@@ -165,13 +186,21 @@ instance_groups:
         dashboards:
         - name: Concourse
           content: ((grafana_dashboard))
-        datasource:
-          database_name: riemann
+        datasources:
+        - name: concourse
+          database_name: concourse
+          url: *influxdb_url
           database_type: influxdb
-          name: influxdb
-          password: ((influxdb_password))
-          url: http://localhost:8086
           user: admin
+          password: ((influxdb_password))
+        # Leaving duplicate datasource in case we split metrics out
+        # to a separate vm in the future
+        - name: telegraf
+          database_name: concourse
+          url: *influxdb_url
+          database_type: influxdb
+          user: admin
+          password: ((influxdb_password))
         listen_port: 3000
         root_url: https://((domain)):3000/
         ssl:
@@ -303,7 +332,6 @@ instance_groups:
         client:
           tls: ((internal_tls))
 
-
 - name: worker
   azs: [z1]
   instances: ((worker_count))
@@ -318,6 +346,8 @@ instance_groups:
     properties:
       drain_timeout: 10m
       worker_gateway: {worker_key: ((worker_key))}
+  - <<: *telegraf_job
+  - <<: *telegraf_agent_job
 
 update:
   canaries: 1

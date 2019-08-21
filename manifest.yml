@@ -1,8 +1,8 @@
 name: ((deployment_name))
 
 influx_db:
-  ip: &influxdb_ip 10.0.0.7
-  url: &influxdb_url http://10.0.0.7:8086
+  ip: &influxdb_ip ((web_static_ip))
+  url: &influxdb_url http://((web_static_ip)):8086
 
 telegraf:
   <<: &influxdb_properties

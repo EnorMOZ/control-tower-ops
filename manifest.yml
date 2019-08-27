@@ -272,7 +272,7 @@ instance_groups:
         address: ((postgres_host))
         port: ((postgres_port))
         db_scheme: postgresql
-        tls_enabled: true
+        tls: enabled_skip_hostname_validation
         databases:
         - tag: uaa
           name: uaa

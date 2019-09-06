@@ -9,8 +9,8 @@
     "path": "/releases/name=concourse",
     "value": {
       "name": "concourse",
-      "version": "5.4.1",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/concourse-5.4.1-ubuntu-xenial-170.124-20190904-193816-67346754.tgz",
+      "version": "5.5.0",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/concourse-5.5.0-ubuntu-xenial-170.124-20190906-141427-933081481.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -23,7 +23,7 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.124-20190904-193904-811406117.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.124-20190906-141540-086930683.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -36,7 +36,7 @@
     "value": {
       "name": "grafana",
       "version": "13.3.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-170.124-20190904-193919-367576706.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-170.124-20190906-141554-55757536.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -49,7 +49,7 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.124-20190904-193936-040240521.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.124-20190906-141611-046309985.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -62,7 +62,7 @@
     "value": {
       "name": "credhub",
       "version": "2.5.3",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/credhub-2.5.3-ubuntu-xenial-170.124-20190904-193956-367622055.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/credhub-2.5.3-ubuntu-xenial-170.124-20190906-141630-944759343.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -75,7 +75,7 @@
     "value": {
       "name": "uaa",
       "version": "70.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.124-20190904-194032-169338419.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.124-20190906-141706-47397845.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -88,7 +88,7 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.124-20190904-194106-352157592.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.124-20190906-141740-882632892.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -101,7 +101,7 @@
     "value": {
       "name": "telegraf",
       "version": "4",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-170.124-20190904-194118-379895745.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-170.124-20190906-141752-725570406.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"
@@ -114,7 +114,7 @@
     "value": {
       "name": "telegraf-agent",
       "version": "1",
-      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-170.124-20190904-194121-857762621.tgz",
+      "url": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-170.124-20190906-141756-245943839.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "170.124"

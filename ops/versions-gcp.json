@@ -2,7 +2,7 @@
   {
     "type": "replace",
     "path": "/stemcells/alias=xenial/version",
-    "value": "170.180"
+    "value": "170.189"
   },
   {
     "type": "replace",
@@ -10,10 +10,10 @@
     "value": {
       "name": "concourse",
       "version": "5.7.2",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.7.2-ubuntu-xenial-170.180-20191210-000413-479066536.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-5.7.2-ubuntu-xenial-170.189-20200106-222321-849123229.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -23,10 +23,10 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.180-20191210-000820-005755637.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-170.189-20200106-222721-932410576.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -36,10 +36,10 @@
     "value": {
       "name": "grafana",
       "version": "13.3.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-170.180-20191210-000844-723277343.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-170.189-20200106-222749-135189165.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -49,10 +49,10 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.180-20191210-000911-796269752.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-170.189-20200106-222819-261251633.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -62,10 +62,10 @@
     "value": {
       "name": "credhub",
       "version": "2.5.9",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.5.9-ubuntu-xenial-170.180-20191210-000944-654596083.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.5.9-ubuntu-xenial-170.189-20200106-222854-305462665.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -75,10 +75,10 @@
     "value": {
       "name": "uaa",
       "version": "70.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.180-20191210-001703-283244372.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-170.189-20200106-223604-333224959.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -88,10 +88,10 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.180-20191210-002034-849192146.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-170.189-20200106-224003-154951958.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -101,10 +101,10 @@
     "value": {
       "name": "telegraf",
       "version": "4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-170.180-20191210-002053-247951294.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-170.189-20200106-224027-113326842.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   },
@@ -114,10 +114,10 @@
     "value": {
       "name": "telegraf-agent",
       "version": "1",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-170.180-20191210-002059-496891596.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-170.189-20200106-224041-112456252.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
-        "version": "170.180"
+        "version": "170.189"
       }
     }
   }

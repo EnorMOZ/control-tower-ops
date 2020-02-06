@@ -159,9 +159,11 @@ instance_groups:
           name: ((postgres_role))
           password: ((postgres_password))
         sslmode: verify-ca
-      tls_cert: ((external_tls.certificate))
-      tls_key: ((external_tls.private_key))
-      tls_bind_port: 443
+      tls:
+        bind_port: 443
+        cert:
+          certificate: ((external_tls.certificate))
+          private_key: ((external_tls.private_key))
       token_signing_key: ((token_signing_key))
       worker_gateway:
         host_key: ((tsa_host_key))

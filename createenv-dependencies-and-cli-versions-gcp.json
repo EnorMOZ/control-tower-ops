@@ -1,7 +1,7 @@
 {
   "bosh": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-270.12.0-ubuntu-xenial-621.59-20200303-223845-135009468-20200303223847.tgz",
-    "sha1": "74a87a8092336c756166cdf30967b6a501f73921",
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bosh-270.12.0-ubuntu-xenial-621.64-20200406-195707-603360464-20200406195709.tgz",
+    "sha1": "2fe9f7c4ca199e91e325463d7dfff38b6e401068",
     "version": "270.12.0"
   },
   "bosh-cli": {
@@ -10,9 +10,9 @@
     "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
   },
   "bpm": {
-    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.7-ubuntu-xenial-621.59-20200303-223453-597336125-20200303223457.tgz",
-    "sha1": "a4b1646ff34faeddab4cb1b069dbfa3ece12c448",
-    "version": "1.1.7"
+    "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.8-ubuntu-xenial-621.64-20200406-195250-465946795-20200406195251.tgz",
+    "sha1": "604f3505dfde8281551d3273c8d346b4900da4c6",
+    "version": "1.1.8"
   },
   "cpi": {
     "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-google-cpi-release?v=30.0.0",
@@ -21,12 +21,12 @@
   },
   "fly": {
     "windows": "",
-    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.8.0-darwin-amd64",
-    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.8.0-linux-amd64"
+    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.8.1-darwin-amd64",
+    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v5.8.1-linux-amd64"
   },
   "stemcell": {
-    "url": "https://bosh-gce-light-stemcells.s3-accelerate.amazonaws.com/621.59/light-bosh-stemcell-621.59-google-kvm-ubuntu-xenial-go_agent.tgz",
-    "sha1": "20421205700e3adad54316a19ab88d64913b815a",
+    "url": "https://bosh-gce-light-stemcells.s3-accelerate.amazonaws.com/621.64/light-bosh-stemcell-621.64-google-kvm-ubuntu-xenial-go_agent.tgz",
+    "sha1": "d0ae2cfe2c8ae4c4fd058bbf50a7c4d97af9dc1d",
     "version": ""
   },
   "terraform": {

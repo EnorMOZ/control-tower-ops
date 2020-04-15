@@ -131,6 +131,7 @@ instance_groups:
       encryption_key: ((atc_encryption_key))
       allow_self_signed_certificates: true
       add_local_users: ['admin:((atc_password))']
+      enable_global_resources: ((enable_global_resources))
       main_team:
         auth:
           local:

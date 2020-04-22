@@ -10,7 +10,7 @@
     "value": {
       "name": "concourse",
       "version": "6.0.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-6.0.0-ubuntu-xenial-621.69-20200421-103204-341761694.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/concourse-6.0.0-ubuntu-xenial-621.69-20200422-074237-887374843.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -23,7 +23,7 @@
     "value": {
       "name": "bpm",
       "version": "1.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-621.69-20200421-103428-2334448.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bpm-1.0.4-ubuntu-xenial-621.69-20200422-074432-214722104.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -36,7 +36,7 @@
     "value": {
       "name": "grafana",
       "version": "13.3.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-621.69-20200421-103502-343220728.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/grafana-13.3.0-ubuntu-xenial-621.69-20200422-074452-905986793.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -49,7 +49,7 @@
     "value": {
       "name": "influxdb",
       "version": "8.0.4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-621.69-20200421-103528-932847662.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/influxdb-8.0.4-ubuntu-xenial-621.69-20200422-074519-049112837.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -62,7 +62,7 @@
     "value": {
       "name": "credhub",
       "version": "2.6.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.6.0-ubuntu-xenial-621.69-20200421-103559-038963617.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/credhub-2.6.0-ubuntu-xenial-621.69-20200422-074548-608811754.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -74,8 +74,8 @@
     "path": "/releases/name=uaa",
     "value": {
       "name": "uaa",
-      "version": "70.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-70.0-ubuntu-xenial-621.69-20200421-103657-713599334.tgz",
+      "version": "74.17.0",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/uaa-74.17.0-ubuntu-xenial-621.69-20200422-074643-394552439.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -88,7 +88,7 @@
     "value": {
       "name": "bosh-dns",
       "version": "1.10.0",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-621.69-20200421-103746-091901749.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/bosh-dns-1.10.0-ubuntu-xenial-621.69-20200422-074730-607250628.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -101,7 +101,7 @@
     "value": {
       "name": "telegraf",
       "version": "4",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-621.69-20200421-103803-83455019.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-4-ubuntu-xenial-621.69-20200422-074747-158773405.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"
@@ -114,7 +114,7 @@
     "value": {
       "name": "telegraf-agent",
       "version": "1",
-      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-621.69-20200421-103809-68778852.tgz",
+      "url": "https://storage.googleapis.com/control-tower-compiled-releases/telegraf-agent-1-ubuntu-xenial-621.69-20200422-074752-729730013.tgz",
       "stemcell": {
         "os": "ubuntu-xenial",
         "version": "621.69"

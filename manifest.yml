@@ -152,7 +152,8 @@ instance_groups:
         username: admin
       log_level: debug
       postgresql:
-        ca_cert: ((postgres_ca_cert))
+        ca_cert:
+          certificate: ((postgres_ca_cert))
         database: concourse_atc
         host: ((postgres_host))
         port: ((postgres_port))

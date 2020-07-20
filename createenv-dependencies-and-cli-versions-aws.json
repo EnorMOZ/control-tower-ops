@@ -15,9 +15,9 @@
     "version": "1.1.8"
   },
   "cpi": {
-    "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-aws-cpi-release?v=82",
-    "sha1": "1a4826469e715f5595de38a15df7b7f511fbfe85",
-    "version": "82"
+    "url": "https://bosh.io/d/github.com/cloudfoundry/bosh-aws-cpi-release?v=83",
+    "sha1": "cabcdf15846adabe2000fe892314a3a2f72c9177",
+    "version": "83"
   },
   "fly": {
     "windows": "",

@@ -7,7 +7,8 @@
   "bosh-cli": {
     "windows": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-windows-amd64.exe",
     "mac": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-darwin-amd64",
-    "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64"
+    "linux": "https://s3.amazonaws.com/bosh-cli-artifacts/bosh-cli-5.0.1-linux-amd64",
+    "version": "5.0.1"
   },
   "bpm": {
     "url": "https://s3.amazonaws.com/bosh-compiled-release-tarballs/bpm-1.1.9-ubuntu-xenial-621.82-20200827-231134-763714105-20200827231135.tgz",
@@ -22,16 +23,18 @@
   "fly": {
     "windows": "",
     "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v6.5.1-darwin-amd64",
-    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v6.5.1-linux-amd64"
+    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v6.5.1-linux-amd64",
+    "version": "6.5.1"
   },
   "stemcell": {
     "url": "https://bosh-aws-light-stemcells.s3-accelerate.amazonaws.com/621.82/light-bosh-stemcell-621.82-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
     "sha1": "67c691effba33dd4e55679301a80a9965640e543",
-    "version": ""
+    "version": "621.82"
   },
   "terraform": {
     "windows": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_windows_amd64.zip",
     "mac": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_darwin_amd64.zip",
-    "linux": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip"
+    "linux": "https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip",
+    "version": "0.11.11"
   }
 }

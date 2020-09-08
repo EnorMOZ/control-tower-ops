@@ -20,12 +20,6 @@
     "sha1": "cabcdf15846adabe2000fe892314a3a2f72c9177",
     "version": "83"
   },
-  "fly": {
-    "windows": "",
-    "mac": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v6.5.1-darwin-amd64",
-    "linux": "https://s3-eu-west-1.amazonaws.com/control-tower-compiled-releases/fly-v6.5.1-linux-amd64",
-    "version": "6.5.1"
-  },
   "stemcell": {
     "url": "https://bosh-aws-light-stemcells.s3-accelerate.amazonaws.com/621.82/light-bosh-stemcell-621.82-aws-xen-hvm-ubuntu-xenial-go_agent.tgz",
     "sha1": "67c691effba33dd4e55679301a80a9965640e543",

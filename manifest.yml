@@ -142,7 +142,7 @@ instance_groups:
         client_secret: ((uaa_clients_atc_to_credhub))
         tls:
           ca_cert:
-            certificate: ((internal_tls.ca))
+            certificate: ((external_tls.ca))
         url: https://((domain)):8844
       external_url: https://((domain))
       influxdb:
@@ -263,8 +263,8 @@ instance_groups:
         admin: {client_secret: ((uaa-admin))}
         login: {client_secret: ((uaa-login))}
         zones: {internal: {hostnames: []}}
-        sslCertificate: ((internal_tls.certificate))
-        sslPrivateKey: ((internal_tls.private_key))
+        sslCertificate: ((external_tls.certificate))
+        sslPrivateKey: ((external_tls.private_key))
         jwt:
           revocable: true
           policy:
@@ -286,14 +286,14 @@ instance_groups:
           password: ((postgres_password))
       login:
         saml:
-          serviceProviderCertificate: ((internal_tls.certificate))
-          serviceProviderKey: ((internal_tls.private_key))
+          serviceProviderCertificate: ((external_tls.certificate))
+          serviceProviderKey: ((external_tls.private_key))
           serviceProviderKeyPassword: ""
   - name: credhub
     release: credhub
     properties:
       credhub:
-        tls: ((internal_tls))
+        tls: ((external_tls))
         authorization:
           permissions:
             - path: /*
@@ -306,7 +306,7 @@ instance_groups:
           uaa:
             url: https://((domain)):8443
             verification_key: ((uaa-jwt.public_key))
-            ca_certs: [((internal_tls.ca))]
+            ca_certs: [((external_tls.ca))]
         data_storage:
           type: postgres
           username: ((postgres_role))
